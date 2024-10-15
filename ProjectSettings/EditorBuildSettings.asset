@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/1.Scene/Start.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/1.Scene/Main.unity
+    guid: fab543df51b36e54fb20d90fa4cc7d19
+  - enabled: 1
+    path: Assets/1.Scene/Gotcha_main.unity
+    guid: 765480d1c0d23e345b4c23015c9350b6
+  - enabled: 1
+    path: Assets/1.Scene/Gotcha.unity
+    guid: 7d8e27b2e006c03438c2686c9e447d5f
+  - enabled: 1
+    path: Assets/1.Scene/SongSelect.unity
+    guid: c040946add8eb7740a824e8cd34b032d
+  - enabled: 1
+    path: Assets/1.Scene/HardGame.unity
+    guid: 09d934e6400dd414d84a18c1d1e8d521
+  - enabled: 1
+    path: Assets/1.Scene/NormalGame.unity
+    guid: 84d14520c7ba8e245babca82241abcdf
+  - enabled: 1
+    path: Assets/1.Scene/EasyGame.unity
+    guid: 0352ef35318e09d408fe75768cb6cb67
+  m_configObjects: {}
