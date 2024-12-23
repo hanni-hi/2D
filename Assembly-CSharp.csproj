@@ -73,6 +73,10 @@
     <Compile Include="Assets\3.Script\Gotchapage\GotchaLoader.cs" />
     <Compile Include="Assets\3.Script\Rhythmgamepage-easy\Sonselectpage.cs" />
     <Compile Include="Assets\3.Script\Mainpage\mainpage.cs" />
+    <Compile Include="Assets\3.Script\Normal_game\NormalGame.cs" />
+    <Compile Include="Assets\3.Script\Rhythmgamepage-easy\EasyGame.cs" />
+    <Compile Include="Assets\3.Script\Hard_game\HardGame.cs" />
+    <Compile Include="Assets\3.Script\ETC\ObjectPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

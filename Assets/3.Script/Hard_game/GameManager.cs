@@ -7,31 +7,31 @@ using UnityEngine.SceneManagement; // 씬 전환을 위해 추가
 
 public class GameManager : MonoBehaviour
 {
-    private VideoPlayer theVideo;
+    public VideoPlayer theVideo;
 
-    private bool isPlaying;
+    public bool isPlaying;
 
-    private NoteScroller theBS;
+    public NoteScroller theBS;
 
     public static GameManager instance;
 
-    public int currentScore;
+    public int currentScore=0;
     public int ScoreperNote = 10;
     public int ScoreGoodNote = 5;
     public int ScoreGreatNote = 10;
     public int ScorePerfectNote = 15;
 
-    private int currentCombo;
-    private int Combotracker=0;
-    private int[] ComboThresholds = new int[4]{4,8,12,16};
+    public int currentCombo;
+    public int Combotracker=0;
+    public int[] ComboThresholds = new int[4]{4,8,12,16};
 
 
-    private Text ScoreText;
-    private Text Combo;
+    public Text ScoreText;
+    public Text Combo;
+    
+    public GameObject objectToDeactivate;
 
-    private GameObject objectToDeactivate;
-
-
+   // public string playerName;
 
 
     private void Awake()
@@ -47,9 +47,22 @@ public class GameManager : MonoBehaviour
 
     }
 
-        // Start is called before the first frame update
         void Start()
     {
+        isPlaying = false;
+
+    }
+
+    void Update()
+    {
+           
+    }
+
+    public void Initializing()
+    {
+
+        isPlaying = false;
+
         GameObject scoreText = GameObject.Find("Score");
         ScoreText = scoreText.GetComponent<Text>();
 
@@ -58,7 +71,7 @@ public class GameManager : MonoBehaviour
 
         objectToDeactivate = GameObject.FindWithTag("Deactivate");
 
-        theBS = GetComponent<NoteScroller>();
+       // theBS = GetComponent<NoteScroller>();
         GameObject videoObject = GameObject.FindWithTag("VideoPlayer");
         if (videoObject != null)
         {
@@ -81,27 +94,14 @@ public class GameManager : MonoBehaviour
         {
             objectToDeactivate.SetActive(true); // 시작 시 오브젝트를 활성화
         }
+        
+
+
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-     if(!isPlaying)
-        {
-                if (Input.GetMouseButtonDown(0)) // 마우스 왼쪽 버튼 클릭
-                {
-                    StartGame();
-                }
-        }
-                if (Input.GetMouseButtonDown(1)) // 마우스 오른쪽 버튼 클릭
-                {
-                    ReturnToPreviousScene();
-                }
-           
-    }
 
-    private void StartGame()
+    public void StartGame()
     {
         isPlaying = true;
         theBS.isStarted = true;
@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
         theVideo.Play();
     }
 
-    private void ReturnToPreviousScene()
+    public void ReturnToPreviousScene()
     {
         if (theVideo != null)
         {
@@ -122,6 +122,8 @@ public class GameManager : MonoBehaviour
         }
 
         SceneManager.LoadScene("SongSelect"); // 이전 씬의 이름으로 교체
+
+        isPlaying = false;
     }
 
     public void NoteHit()
