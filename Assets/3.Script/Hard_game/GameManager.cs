@@ -7,29 +7,32 @@ using UnityEngine.SceneManagement; // 씬 전환을 위해 추가
 
 public class GameManager : MonoBehaviour
 {
-    public VideoPlayer theVideo;
-    public AudioSource theMusic;
+    private VideoPlayer theVideo;
 
-    public bool isPlaying;
+    private bool isPlaying;
 
-    public NoteScroller theBS;
+    private NoteScroller theBS;
 
     public static GameManager instance;
 
     public int currentScore;
-    public int ScoreperNote=10;
-    public int ScoreGoodNote =5;
-    public int ScorePerfectNote =15;
+    public int ScoreperNote = 10;
+    public int ScoreGoodNote = 5;
+    public int ScoreGreatNote = 10;
+    public int ScorePerfectNote = 15;
 
-    public int currentCombo;
-    public int Combotracker;
-    public int[] ComboThresholds;
+    private int currentCombo;
+    private int Combotracker=0;
+    private int[] ComboThresholds = new int[4]{4,8,12,16};
 
 
     public Text ScoreText;
     public Text Combo;
 
     public GameObject objectToDeactivate;
+
+
+
 
     private void Awake()
     {
@@ -47,7 +50,7 @@ public class GameManager : MonoBehaviour
         // Start is called before the first frame update
         void Start()
     {
-
+        theBS = GetComponent<NoteScroller>();
         GameObject videoObject = GameObject.FindWithTag("VideoPlayer");
         if (videoObject != null)
         {

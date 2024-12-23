@@ -6324,7 +6324,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &992850481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14073,6 +14073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2025339588}
   - component: {fileID: 2025339587}
+  - component: {fileID: 2025339589}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -14092,17 +14093,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7dcfb20dcdbdce44bb3012fa962c487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theVideo: {fileID: 987072716}
-  theMusic: {fileID: 0}
-  isPlaying: 0
-  theBS: {fileID: 992850481}
   currentScore: 0
   ScoreperNote: 10
   ScoreGoodNote: 5
+  ScoreGreatNote: 10
   ScorePerfectNote: 15
-  currentCombo: 1
-  Combotracker: 0
-  ComboThresholds: 04000000080000000c00000010000000
   ScoreText: {fileID: 726222154}
   Combo: {fileID: 1921729078}
   objectToDeactivate: {fileID: 226592016}
@@ -14120,6 +14115,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2025339589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025339586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f8f9be07fb5574c916af27309ab41c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatTempo: 0
+  isStarted: 0
 --- !u!1 &2042819243
 GameObject:
   m_ObjectHideFlags: 0
