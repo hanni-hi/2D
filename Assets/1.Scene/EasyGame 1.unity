@@ -6263,7 +6263,7 @@ GameObject:
   - component: {fileID: 1367812693}
   - component: {fileID: 1367812692}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7990,17 +7990,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7dcfb20dcdbdce44bb3012fa962c487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theBS: {fileID: 530247158}
   currentScore: 0
   ScoreperNote: 10
   ScoreGoodNote: 5
   ScoreGreatNote: 10
   ScorePerfectNote: 15
-  currentCombo: 1
-  Combotracker: 0
-  ComboThresholds: 04000000080000000c00000010000000
-  ScoreText: {fileID: 1367812690}
-  Combo: {fileID: 2071014638}
   objectToDeactivate: {fileID: 1955460495}
 --- !u!114 &1662917196
 MonoBehaviour:
@@ -8719,7 +8713,7 @@ GameObject:
   - component: {fileID: 1955460496}
   m_Layer: 0
   m_Name: EASY
-  m_TagString: Untagged
+  m_TagString: Deactivate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

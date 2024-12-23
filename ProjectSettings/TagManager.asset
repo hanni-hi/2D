@@ -12,6 +12,7 @@ TagManager:
   - Score
   - Activator
   - VideoPlayer
+  - Deactivate
   layers:
   - Default
   - TransparentFX

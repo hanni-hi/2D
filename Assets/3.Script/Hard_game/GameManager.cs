@@ -26,10 +26,10 @@ public class GameManager : MonoBehaviour
     private int[] ComboThresholds = new int[4]{4,8,12,16};
 
 
-    public Text ScoreText;
-    public Text Combo;
+    private Text ScoreText;
+    private Text Combo;
 
-    public GameObject objectToDeactivate;
+    private GameObject objectToDeactivate;
 
 
 
@@ -50,6 +50,14 @@ public class GameManager : MonoBehaviour
         // Start is called before the first frame update
         void Start()
     {
+        GameObject scoreText = GameObject.Find("Score");
+        ScoreText = scoreText.GetComponent<Text>();
+
+        GameObject comboText = GameObject.Find("Combo");
+        Combo = comboText.GetComponent<Text>();
+
+        objectToDeactivate = GameObject.FindWithTag("Deactivate");
+
         theBS = GetComponent<NoteScroller>();
         GameObject videoObject = GameObject.FindWithTag("VideoPlayer");
         if (videoObject != null)
