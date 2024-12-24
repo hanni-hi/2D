@@ -58,14 +58,18 @@
   <ItemGroup>
     <Compile Include="Assets\3.Script\ETC\SceneLoader.cs" />
     <Compile Include="Assets\3.Script\Hard_game\PanelController.cs" />
+    <Compile Include="Assets\3.Script\Hard_game\HardGame.cs" />
+    <Compile Include="Assets\3.Script\ETC\ObjectPool.cs" />
     <Compile Include="Assets\3.Script\Gotchapage\CardUI.cs" />
     <Compile Include="Assets\3.Script\Gotchapage\Gogotcha.cs" />
     <Compile Include="Assets\3.Script\Rhythmgamepage-easy\Loadsongselect.cs" />
     <Compile Include="Assets\3.Script\ETC\Bgm.cs" />
     <Compile Include="Assets\3.Script\Gotchapage\RandomSelect.cs" />
+    <Compile Include="Assets\3.Script\Rhythmgamepage-easy\EasyGame.cs" />
     <Compile Include="Assets\3.Script\Hard_game\NoteObject.cs" />
     <Compile Include="Assets\3.Script\Hard_game\NoteScroller.cs" />
     <Compile Include="Assets\3.Script\Rhythmgamepage-easy\SceneTimer.cs" />
+    <Compile Include="Assets\3.Script\Normal_game\NormalGame.cs" />
     <Compile Include="Assets\3.Script\Gotchapage\Gotcha.cs" />
     <Compile Include="Assets\3.Script\Gotchapage\HomeLoader_gotcha.cs" />
     <Compile Include="Assets\3.Script\Hard_game\GameManager.cs" />
@@ -73,10 +77,7 @@
     <Compile Include="Assets\3.Script\Gotchapage\GotchaLoader.cs" />
     <Compile Include="Assets\3.Script\Rhythmgamepage-easy\Sonselectpage.cs" />
     <Compile Include="Assets\3.Script\Mainpage\mainpage.cs" />
-    <Compile Include="Assets\3.Script\Normal_game\NormalGame.cs" />
-    <Compile Include="Assets\3.Script\Rhythmgamepage-easy\EasyGame.cs" />
-    <Compile Include="Assets\3.Script\Hard_game\HardGame.cs" />
-    <Compile Include="Assets\3.Script\ETC\ObjectPool.cs" />
+    <Compile Include="Assets\3.Script\ETC\SceneDataManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

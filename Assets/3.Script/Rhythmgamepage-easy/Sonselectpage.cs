@@ -40,33 +40,29 @@ public class Sonselectpage : MonoBehaviour
     private void SelectSong()
     {
         isSelected = true;
-        string nextSceneName = "";
-        float sceneDuration = 0f;
+
+        GameManager.SceneType sceneType = GameManager.SceneType.EGame;
 
         switch (gameObject.name)
         {
             case "Button1-1":
-                nextSceneName = "HardGame";
-                sceneDuration = 158f;
-                Debug.Log("하드게임신으로 이동");
+                sceneType = GameManager.SceneType.HGame;
                 break;
             case "Button2-1":
-                nextSceneName = "NormalGame";
-                sceneDuration = 128f;
-                Debug.Log("노말게임신으로 이동");
+                sceneType = GameManager.SceneType.NGame;
                 break;
             case "Button3-1":
-                nextSceneName = "EasyGame";
-                sceneDuration = 164f;
-                Debug.Log("이지게임신으로 이동");
+                sceneType = GameManager.SceneType.EGame;
                 break;
         }
 
+        SceneData sceneData = GameManager.instance.GetSceneData(sceneType);
+
         // 이전 씬 이름을 PlayerPrefs에 저장
         PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
-        PlayerPrefs.SetFloat("SceneDuration", sceneDuration);
+        PlayerPrefs.SetFloat("SceneDuration", sceneData.SceneDuration);
         PlayerPrefs.Save();
 
-        SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene(sceneData.SceneName);
     }
 }

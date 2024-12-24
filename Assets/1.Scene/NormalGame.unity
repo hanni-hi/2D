@@ -3510,6 +3510,7 @@ GameObject:
   - component: {fileID: 858011533}
   - component: {fileID: 858011532}
   - component: {fileID: 858011534}
+  - component: {fileID: 858011535}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -3593,6 +3594,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &858011535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858011530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1589be34fc02041b734dc170b40f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedMultiflier: 0
+  NotePrefab: {fileID: 2080092096171924453, guid: 438d3d2b154e9454c83f160890e5961d, type: 3}
+  beatTempo: 0
+  beatPerSecond: 0
 --- !u!1 &892006377
 GameObject:
   m_ObjectHideFlags: 0
