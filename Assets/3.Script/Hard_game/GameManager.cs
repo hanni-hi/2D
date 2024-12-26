@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
     public enum SceneType { EGame, NGame, HGame };
     public Dictionary<SceneType, SceneData> SceneDictionary;
 
+    public Action WhenStart;
 
     private SceneType thisType;
     private string currentSceneName;
@@ -61,9 +63,9 @@ public class GameManager : MonoBehaviour
 
         SceneDictionary = new Dictionary<SceneType, SceneData>
         {
-            { SceneType.EGame, new SceneData("EasyGame", 99f, 164f) },
-            { SceneType.NGame, new SceneData("NormalGame",136f,128f) },
-            { SceneType.HGame,new SceneData("HardGame",100f,158f)}
+            { SceneType.EGame, new SceneData("EasyGame", 99f, 164f,1f) },
+            { SceneType.NGame, new SceneData("NormalGame",136f,128f,2f) },
+            { SceneType.HGame,new SceneData("HardGame",100f,158f,3f)}
 
         };
 
@@ -161,8 +163,10 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        WhenStart?.Invoke();
+
         isPlaying = true;
-        theBS.isStarted = true;
+       // theBS.isStarted = true;
 
         if (objectToDeactivate != null)
         {
@@ -236,12 +240,14 @@ public class SceneData
     public string SceneName { get; private set; }
     public float SceneBeat { get; private set; }
     public float SceneDuration { get; private set; }
+    public float SpeedMultifle { get; private set; }
 
-    public SceneData(string sceneName, float sceneBeat,float sceneDuration)
+    public SceneData(string sceneName, float sceneBeat,float sceneDuration,float speedMultifle)
     {
         this.SceneName = sceneName;
         this.SceneBeat = sceneBeat;
         this.SceneDuration = sceneDuration;
+        this.SpeedMultifle = speedMultifle;
 
     }
 

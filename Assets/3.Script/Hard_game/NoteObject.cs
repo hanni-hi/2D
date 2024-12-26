@@ -9,6 +9,13 @@ public class NoteObject : MonoBehaviour
 
     public KeyCode keytoPress;
 
+    private ObjectPool objPool;
+
+    private void Awake()
+    {
+        objPool = FindObjectOfType<ObjectPool>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -42,6 +49,9 @@ public class NoteObject : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        objPool.ReturnToPool(gameObject);
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)

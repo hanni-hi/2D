@@ -3510,7 +3510,6 @@ GameObject:
   - component: {fileID: 858011533}
   - component: {fileID: 858011532}
   - component: {fileID: 858011534}
-  - component: {fileID: 858011535}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -3594,22 +3593,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &858011535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858011530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d1589be34fc02041b734dc170b40f37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedMultiflier: 0
-  NotePrefab: {fileID: 2080092096171924453, guid: 438d3d2b154e9454c83f160890e5961d, type: 3}
-  beatTempo: 0
-  beatPerSecond: 0
 --- !u!1 &892006377
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,8 +9335,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1726383764}
-  - component: {fileID: 1726383765}
   - component: {fileID: 1726383766}
+  - component: {fileID: 1726383765}
   m_Layer: 0
   m_Name: NoteManager
   m_TagString: Untagged
@@ -9369,7 +9352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726383763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.963608, y: -32.26665, z: -1272.4628}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9384,11 +9367,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1726383763}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f8f9be07fb5574c916af27309ab41c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d1589be34fc02041b734dc170b40f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatTempo: 136
-  isStarted: 0
+  SpeedMultiflier: 2
+  NotePrefab: {fileID: 2080092096171924453, guid: 438d3d2b154e9454c83f160890e5961d, type: 3}
+  beatTempo: 0
+  beatPerSecond: 0
 --- !u!114 &1726383766
 MonoBehaviour:
   m_ObjectHideFlags: 0

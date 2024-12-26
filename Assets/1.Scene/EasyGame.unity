@@ -1177,8 +1177,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 267345123}
-  - component: {fileID: 267345122}
   - component: {fileID: 267345124}
+  - component: {fileID: 267345125}
   m_Layer: 0
   m_Name: NoteManager
   m_TagString: Untagged
@@ -1186,20 +1186,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &267345122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267345121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19f8f9be07fb5574c916af27309ab41c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  beatTempo: 99
-  isStarted: 0
 --- !u!4 &267345123
 Transform:
   m_ObjectHideFlags: 0
@@ -1208,7 +1194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267345121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 246.73145, y: 164.99995, z: 0}
+  m_LocalPosition: {x: 0.01, y: 4.003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1226,6 +1212,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61cc4271885f6ab469765a1d4c1f6220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &267345125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267345121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d1589be34fc02041b734dc170b40f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedMultiflier: 1
+  NotePrefab: {fileID: 2080092096171924453, guid: 438d3d2b154e9454c83f160890e5961d, type: 3}
+  beatTempo: 0
+  beatPerSecond: 0
 --- !u!1 &303549143
 GameObject:
   m_ObjectHideFlags: 0
@@ -5996,7 +5998,6 @@ GameObject:
   - component: {fileID: 1381851023}
   - component: {fileID: 1381851022}
   - component: {fileID: 1381851024}
-  - component: {fileID: 1381851025}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -6080,22 +6081,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1381851025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1381851020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d1589be34fc02041b734dc170b40f37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedMultiflier: 1
-  NotePrefab: {fileID: 2080092096171924453, guid: 438d3d2b154e9454c83f160890e5961d, type: 3}
-  beatTempo: 0
-  beatPerSecond: 0
 --- !u!1 &1395454832
 GameObject:
   m_ObjectHideFlags: 0

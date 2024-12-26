@@ -22,7 +22,6 @@ public class RandomSelect : MonoBehaviour
     // 랜덤으로 카드를 선택하여 결과 리스트에 추가하고, ui에 표시하는 메서드
     public void ResultSelect()
     {
-        Debug.LogError("ResultSelect 메서드 시작.");
          //기존에 생성된 카드를 모두 제거
           foreach (GameObject card in createdCards)
           {
@@ -36,7 +35,6 @@ public class RandomSelect : MonoBehaviour
             Gogotcha selectedCard = Randomcard();
             if (selectedCard == null)
             {
-                Debug.LogError("카드를 랜덤으로 선택하지 못했습니다.");
                 continue;
             }
             result.Add(selectedCard);
@@ -47,10 +45,6 @@ public class RandomSelect : MonoBehaviour
             if (cardUI != null)
             {
                 cardUI.CardUISet(selectedCard);
-            }
-            else
-            {
-                Debug.LogError("CardUI 컴포넌트가 없습니다.");
             }
 
             // 카드의 RectTransform 초기화
@@ -67,7 +61,6 @@ public class RandomSelect : MonoBehaviour
 
     public Gogotcha Randomcard()
     {
-        Debug.LogError("Randomcard 메서드 시작.");
         int randomWeight = Random.Range(0, total);
         int cumulativeWeight = 0;
 
@@ -79,7 +72,6 @@ public class RandomSelect : MonoBehaviour
                 return card;
             }
         }
-        Debug.LogError("카드를 랜덤으로 선택하지 못했습니다.");
         return null;  //deck[Random.Range(0, deck.Count)];
     }
 
@@ -96,7 +88,6 @@ public class RandomSelect : MonoBehaviour
 
     void UpdateCardFronts()
     {
-        Debug.LogError("UpdateCardFronts 메서드 시작.");
 
         for (int i = 0; i < result.Count; i++)
         {
