@@ -13,15 +13,12 @@ public class Gotcha : MonoBehaviour
     {
         if(Scout_button != null)
         {
-            Debug.Log("(메인->스카우트화면)ScoutButtonClicked메서드 시작지점");
             Scout_button.onClick.AddListener(ScoutButtonClicked);
-            Debug.Log("(메인->스카우트화면)ScoutButtonClicked메서드");
         }
     }
 
     public void ScoutButtonClicked()
     {
-        Debug.Log("씬전환시도중");
         SceneManager.LoadScene("Gotcha_main");
     }
 

@@ -8,6 +8,6 @@ public class HardGame : MonoBehaviour
     void Start()
     {
         GameManager.instance.Initializing();
-        GameManager.instance.theBS = GetComponent<NoteScroller>();
+      //  GameManager.instance.theBS = GetComponent<NoteScroller>();
     }
 }

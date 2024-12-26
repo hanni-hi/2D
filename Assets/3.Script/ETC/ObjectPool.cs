@@ -24,11 +24,8 @@ public class ObjectPool : MonoBehaviour
 
     private GameManager.SceneType currentscene;
 
-    private void Awake()
+    private void Start()
     {
-        Debug.Log("ObjectPool 시작");
-
-
         SpawnObject = GameObject.Find("NoteManager") ;
 
         GameManager.SceneType? type = GameManager.instance.GetKeyByValue();
@@ -83,12 +80,6 @@ public class ObjectPool : MonoBehaviour
      
     }
 
-    private void Start()
-    {
-
-
-    }
-
     void Update()
     {
         
@@ -121,6 +112,10 @@ public class ObjectPool : MonoBehaviour
         while (elapsedTime<sDuration)
         {
             yield return new WaitForSeconds(5f);
+
+            if (elapsedTime + 5f > sDuration) break;
+
+            elapsedTime += 5f;
 
             int rand = Random.Range(0, PanelCount);
             Transform goalPanel = panelTransform[rand];  //★  여기 오류생기는중

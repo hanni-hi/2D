@@ -6,6 +6,7 @@ public class NoteObject : MonoBehaviour
 {
     public bool canbePressed;
     public bool obtained;
+    public string currentZone;
 
     public KeyCode keytoPress;
 
@@ -14,6 +15,11 @@ public class NoteObject : MonoBehaviour
     private void Awake()
     {
         objPool = FindObjectOfType<ObjectPool>();
+    }
+
+    private void Start()
+    {
+        canbePressed = false;
     }
 
     // Update is called once per frame
@@ -39,19 +45,39 @@ public class NoteObject : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag=="Activator")
-        {
-            Debug.Log("노트누름");
             canbePressed = true;
+        if (other.tag == "Perfect")
+        {
+            if (currentZone != "Perfect")
+            {
+                currentZone = "Perfect";
+
+            }
         }
+        else if (other.tag == "Great")
+        {
+            if (currentZone != "Perfect" && currentZone != "Great")
+            {
+                currentZone = "Great";
+            }
+        }
+        else if (other.tag == "Activator")
+        {
+            if (currentZone == null)
+            {
+                currentZone = "Activator";
+            }
+        }
+
+
 
         if (other.tag == "Boundary")
         {
-            Destroy(gameObject);
+            objPool.ReturnToPool(gameObject);
+            currentZone = null;
         }
 
-        objPool.ReturnToPool(gameObject);
-        
+
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -61,6 +87,7 @@ public class NoteObject : MonoBehaviour
             if (other.tag == "Activator")
             {
                 canbePressed = false;
+                currentZone = null;
                 if (!obtained)
                 {
                     Debug.Log("노트놎침");
@@ -68,10 +95,6 @@ public class NoteObject : MonoBehaviour
                     {
                         GameManager.instance.NoteMissed();
                     }
-                }
-                else
-                {
-                    Debug.LogError("GameManager instance is not set.");
                 }
             }
         }

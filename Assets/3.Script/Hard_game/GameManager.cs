@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     public bool isPlaying;
 
-    public NoteScroller theBS;
+    public NoteObject noteOBJ;
 
     public static GameManager instance;
 
@@ -111,10 +111,14 @@ public class GameManager : MonoBehaviour
 
     public SceneType? GetKeyByValue()
     {
-        foreach(var val in SceneDictionary)
+        Debug.Log($"현재 씬 이름: {currentSceneName}");
+
+        foreach (var val in SceneDictionary)
         {
-            if(val.Value.SceneName==currentSceneName)
+
+            if (val.Value.SceneName==currentSceneName)
             {
+            Debug.Log($"씬 이름 확인: {val.Value.SceneName}");
                 return val.Key;
             }
         }
@@ -190,6 +194,8 @@ public class GameManager : MonoBehaviour
 
     public void NoteHit()
     {
+        int NoteScore;
+
         // ComboThresholds 배열 범위 확인
         if (currentCombo - 1 < ComboThresholds.Length)
         {
@@ -206,7 +212,20 @@ public class GameManager : MonoBehaviour
         }
         Combo.text = "Combo X "+ currentCombo;
 
-        currentScore += ScoreperNote*currentCombo;
+        if(noteOBJ.currentZone=="Perfect")
+        {
+            NoteScore = ScorePerfectNote;
+        }
+        else if(noteOBJ.currentZone=="Great")
+        {
+            NoteScore = ScoreGreatNote;
+        }
+        else if(noteOBJ.currentZone=="Activator")
+        {
+            NoteScore = ScoreGoodNote;
+        }
+
+      //  currentScore += NoteScore * currentCombo;
         ScoreText.text = "Score " + currentScore;
 
     }    
@@ -219,13 +238,6 @@ public class GameManager : MonoBehaviour
         Combo.text = "Combo X " + currentCombo;
 
     }
-
-  //  public IEnumerator Timer()
-  //  {
-  //     // float sDuration=SceneDictionary
-  //
-  //      yield return null;
-  //  }
 
     public void OnSceneLoaded(Scene scene,LoadSceneMode mode)
     {
