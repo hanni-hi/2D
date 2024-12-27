@@ -178,6 +178,8 @@ public class GameManager : MonoBehaviour
         }
 
         theVideo.Play();
+
+
     }
 
     public void ReturnToPreviousScene()
@@ -194,6 +196,7 @@ public class GameManager : MonoBehaviour
 
     public void NoteHit()
     {
+
         int NoteScore;
 
         // ComboThresholds 배열 범위 확인
@@ -224,10 +227,14 @@ public class GameManager : MonoBehaviour
         {
             NoteScore = ScoreGoodNote;
         }
+        else
+        {
+            NoteScore = ScoreperNote;
+        }
 
-      //  currentScore += NoteScore * currentCombo;
+
+        currentScore += NoteScore * currentCombo;
         ScoreText.text = "Score " + currentScore;
-
     }    
 
     public void NoteMissed()
@@ -242,6 +249,15 @@ public class GameManager : MonoBehaviour
     public void OnSceneLoaded(Scene scene,LoadSceneMode mode)
     {
         currentSceneName = scene.name;
+
+        if (currentSceneName.Contains("Game"))
+        {
+            GameObject Score = GameObject.Find("Score");
+            ScoreText = Score.GetComponent<Text>();
+
+            GameObject combo = GameObject.Find("Combo");
+            Combo = combo.GetComponent<Text>();
+        }
     }
 
 }

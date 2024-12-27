@@ -16,6 +16,8 @@ public class PanelController : MonoBehaviour
     
     private SpriteRenderer theSR;
     private string keyString;
+    private NoteObject noteobj;
+         
 
     void Start()
     {
@@ -25,63 +27,50 @@ public class PanelController : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(keyString))
+        if (Input.GetKeyDown(keyString))
         {
             theSR.sprite = pressedImage;
+            if (noteobj != null && noteobj.canbePressed)
+            {
 
+                noteobj.obtained = true;
+                noteobj.canbePressed = false;
+
+                GameManager.instance.NoteHit();
+
+                noteobj.objPool.ReturnToPool(noteobj.gameObject);
+
+                noteobj = null;
+            }
         }
-       
-        if(Input.GetKeyUp(keyString))
-        {
-            theSR.sprite = defaultImage;
-        }
+            if (Input.GetKeyUp(keyString))
+            {
+                theSR.sprite = defaultImage;
+
+            }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-      //  canbePressed = true;
-      //
-      //
-      //  if(collision.tag=="Perfect")
-      //  {
-      //      if(currentZone != "Perfect")
-      //      {
-      //          currentZone = "Perfect";
-      //
-      //      }
-      //  }
-      //  else if(collision.tag=="Great")
-      //  {
-      //      if(currentZone!="Perfect"&&currentZone!="Great")
-      //      {
-      //          currentZone = "Great";
-      //      }
-      //  }
-      //  else if(collision.tag=="Activator")
-      //  {
-      //      if(currentZone==null)
-      //      {
-      //          currentZone = "Activator";
-      //      }
-      //  }
-      //
-      //
-      //
-      //  if(collision.tag== "Boundary")
-      //  {
-      //      objPool.ReturnToPool(gameObject);
-      //      currentZone = null;
-      //  }
+        if(collision.tag=="Note")
+        {
+            noteobj = collision.GetComponent<NoteObject>();
+            noteobj.canbePressed = true;
 
+        }
     }
 
-   // private void OnTriggerExit2D(Collider2D collision)
-   // {
-   //     if(collision.tag== "Activator")
-   //     {
-   //     canbePressed = false;
-   //         currentZone = null;
-   //     }
-   // }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.tag=="Note")
+        {
+            if (noteobj !=null && noteobj == collision.GetComponent<NoteObject>())
+            {
+                noteobj.canbePressed = false;
+                noteobj = null;
+            }
+        }
+    }
 
 }

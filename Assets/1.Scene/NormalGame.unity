@@ -186,7 +186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &9805235
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -301,7 +303,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &21165702
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -416,7 +420,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &42808678
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -665,7 +671,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!1 &68127931
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,7 +737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &68127935
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -938,7 +948,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &135750479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1053,7 +1065,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &153043617
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1370,7 +1384,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &250341984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1527,7 +1543,7 @@ Transform:
   m_GameObject: {fileID: 309304859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -6, z: 0}
-  m_LocalScale: {x: 20, y: 0.1, z: 1}
+  m_LocalScale: {x: 100, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1913,7 +1929,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &398475981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2028,7 +2046,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &412108163
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2143,7 +2163,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &418899609
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2258,7 +2280,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &493744909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2373,7 +2397,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &500028844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2488,7 +2514,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &515844324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2603,7 +2631,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &547074845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2878,7 +2908,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &606575364
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2993,7 +3025,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &640820202
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3108,7 +3142,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &643304789
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3223,7 +3259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &684316686
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3338,7 +3376,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &734984314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3453,7 +3493,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &761756068
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3568,7 +3610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &774691862
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3734,7 +3778,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!1 &858011530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3893,7 +3939,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &892006381
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4095,7 +4143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &897147082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4349,7 +4399,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &948164300
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4603,7 +4655,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &991646876
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4718,7 +4772,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1006904071
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4833,7 +4889,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1028591346
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4999,7 +5057,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!1 &1065841716
 GameObject:
   m_ObjectHideFlags: 0
@@ -5063,7 +5123,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1065841720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5178,7 +5240,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1067069102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5293,7 +5357,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1078218558
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5408,7 +5474,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1104811360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5878,7 +5946,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1167718987
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5993,7 +6063,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1185227936
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6155,7 +6227,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1194650494
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6270,7 +6344,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1200961324
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6385,7 +6461,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1211047871
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6500,7 +6578,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1221775503
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6615,7 +6695,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1223931843
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6730,7 +6812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1227785145
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6845,7 +6929,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1235203203
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6960,7 +7046,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &1237174118
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7111,7 +7199,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1268947736
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7273,7 +7363,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1281591034
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7388,7 +7480,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1288131146
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7503,7 +7597,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1291195103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7716,7 +7812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!1 &1333511000
 GameObject:
   m_ObjectHideFlags: 0
@@ -7780,7 +7878,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1333511004
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7895,7 +7995,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1387189602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8010,7 +8112,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1391283594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8208,7 +8312,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1429812263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8323,7 +8429,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1433310573
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8485,7 +8593,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1462633632
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8600,7 +8710,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1487237694
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8715,7 +8827,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1534244580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8877,7 +8991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1574544690
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8992,7 +9108,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &1597340768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9107,7 +9225,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1622961374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9222,7 +9342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1654478344
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9337,7 +9459,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1660180181
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9452,7 +9576,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1679567189
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9567,7 +9693,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1689589532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9682,7 +9810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1691657484
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9797,7 +9927,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &1691664927
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9972,7 +10104,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &1726793853
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10087,7 +10221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1762115527
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10202,7 +10338,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &1783821342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10317,7 +10455,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1786749296
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10432,7 +10572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &1827519387
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10547,7 +10689,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1831906084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10709,7 +10853,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &1847284248
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10824,7 +10970,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &1866290169
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10939,7 +11087,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1882366509
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11105,7 +11255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!1 &1929649475
 GameObject:
   m_ObjectHideFlags: 0
@@ -11169,7 +11321,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1929649479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11284,7 +11438,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &1944202382
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11538,7 +11694,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 121
+  objPool: {fileID: 0}
 --- !u!212 &1954772661
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11704,7 +11862,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!1 &2003626253
 GameObject:
   m_ObjectHideFlags: 0
@@ -11768,7 +11928,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 117
+  objPool: {fileID: 0}
 --- !u!212 &2003626257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11883,7 +12045,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 101
+  objPool: {fileID: 0}
 --- !u!212 &2007833114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11998,7 +12162,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 114
+  objPool: {fileID: 0}
 --- !u!212 &2009802505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12113,7 +12279,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 119
+  objPool: {fileID: 0}
 --- !u!212 &2037154039
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12506,7 +12674,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &2122248183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12621,7 +12791,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canbePressed: 0
   obtained: 0
+  currentZone: 
   keytoPress: 105
+  objPool: {fileID: 0}
 --- !u!212 &2123035760
 SpriteRenderer:
   m_ObjectHideFlags: 0

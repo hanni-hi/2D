@@ -11,16 +11,9 @@ public class ObjectPool : MonoBehaviour
     private Transform SpawnPoint;
     private GameObject Note;
     private GameObject[] Notes = new GameObject[10];
-    private GameObject[] Panels;
-    private int PanelCount;
-    private Transform[] panelTransform;
     private int NoteCount = 10;
-    [SerializeField] private float SpeedMultiflier;
 
     public GameObject NotePrefab;
-    public float beatTempo;
-    //BPM : BPM을 초당 비트로 변환하고, 배율을 적용해서 노트 속도를 조정함  
-    public float beatPerSecond;
 
     private GameManager.SceneType currentscene;
 
@@ -38,42 +31,14 @@ public class ObjectPool : MonoBehaviour
             Debug.Log("씬타입 못찾음 ");
         }
 
-
-        Panels = GameObject.FindGameObjectsWithTag("Activator"); // 패널배열에 패널태그가진 오브젝트 담음
-        if(Panels.Length==0)
-            {
-            Debug.Log("패널이 하나도 없음");
-        }
-
-
-        PanelCount = Panels.Length; //패널 갯수
-        Debug.Log($"패널갯수 {PanelCount}");
-
-        panelTransform = new Transform[PanelCount]; //패널트랜스폼 배열 배널갯수로 초기화 
-
         SpawnPoint = SpawnObject.transform;
-
-        beatTempo = GameManager.instance.GetSceneData(currentscene).SceneBeat;
-
-        beatPerSecond = beatTempo / 60f;
-
-        SpeedMultiflier = GameManager.instance.GetSceneData(currentscene).SpeedMultifle;
-
-        for(int i=0;i<PanelCount;i++)
-        {
-            panelTransform[i] = Panels[i].transform; //패널들 위치 정보 panelTransform 에 담음
-            Debug.Log($"{panelTransform[i]}");
-        }
 
         for(int i=0; i<NoteCount;i++)
         {
 
         GameObject spawnedNote=Instantiate(NotePrefab);
             spawnedNote.transform.position = SpawnPoint.position;
-          // spawnedNote.transform.SetParent(SpawnPoint);
             spawnedNote.SetActive(false);
-          //  Vector2 goalScale = spawnedNote.transform.localScale * 10f;
-           // spawnedNote.transform.localScale = goalScale;
             NoteQ.Enqueue(spawnedNote);
 
         }
@@ -87,6 +52,7 @@ public class ObjectPool : MonoBehaviour
 
     private void OnEnable()
     {
+
         GameManager.instance.WhenStart += NoteStart;
         
     }
@@ -105,43 +71,18 @@ public class ObjectPool : MonoBehaviour
     
     private IEnumerator StartNote()
     {
-        float elapsedTime=0;
+        float elapsedTime=Time.time;
 
         float sDuration = GameManager.instance.GetSceneData(currentscene).SceneDuration;
 
-        while (elapsedTime<sDuration)
+        while (elapsedTime+sDuration>Time.time)
         {
             yield return new WaitForSeconds(5f);
-
-            if (elapsedTime + 5f > sDuration) break;
-
-            elapsedTime += 5f;
-
-            int rand = Random.Range(0, PanelCount);
-            Transform goalPanel = panelTransform[rand];  //★  여기 오류생기는중
-
-            float speed = beatPerSecond * SpeedMultiflier;
 
             GameObject spawned = NoteQ.Dequeue();
             spawned.SetActive(true);
 
             Debug.Log($"현재 큐에 있는 노트 { NoteQ.Count }");
-
-            spawned.transform.position = SpawnPoint.position;
-
-            float moveStartTime = Time.time;
-
-            //노트의 이동
-            while (Vector2.Distance(spawned.transform.position, goalPanel.position) > 0.1f)
-            {
-                spawned.transform.position = Vector2.MoveTowards(spawned.transform.position, goalPanel.position, speed * Time.deltaTime);
-
-            yield return null;
-            };
-
-            spawned.transform.position = goalPanel.position;
-            float moveTime = Time.time - moveStartTime;
-        elapsedTime += moveTime;
         }
     }
 
