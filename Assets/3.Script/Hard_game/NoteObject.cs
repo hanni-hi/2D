@@ -52,6 +52,11 @@ public class NoteObject : MonoBehaviour
             PanelTransforms[i] = Panels[i].transform; //패널들 위치 정보 panelTransform 에 담음
         }
 
+        foreach (var panel in Panels)
+        {
+            Debug.Log($"Panel Name: {panel.name}, Position: {panel.transform.position}");
+        }
+
         beatTempo = GameManager.instance.GetSceneData(currentsceneType).SceneBeat;
         beatPerSecond = beatTempo / 60f;
 
@@ -59,24 +64,21 @@ public class NoteObject : MonoBehaviour
 
         speed = beatPerSecond * SpeedMultiflier;
 
-    }
-
-    private void OnEnable()
-    {
 
         int rand = Random.Range(0,PanelCount);
         Transform goalPanel = PanelTransforms[rand];
 
         rb = gameObject.GetComponent<Rigidbody2D>();
 
-        direction = (gameObject.transform.position - goalPanel.position).normalized;
+        direction = (goalPanel.position-gameObject.transform.position).normalized;
     }
 
     void Update()
     {
         if(gameObject.activeSelf)
         {
-            rb.velocity = -direction * speed;
+            rb.velocity = direction * speed;
+            Debug.Log($"Direction: {direction}");
 
         }
 

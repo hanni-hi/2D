@@ -116,7 +116,8 @@ MonoBehaviour:
   canbePressed: 0
   obtained: 0
   currentZone: 
-  keytoPress: 0
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!50 &2605424863193826706
 Rigidbody2D:
@@ -127,7 +128,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080092096171924453}
   m_BodyType: 0
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
