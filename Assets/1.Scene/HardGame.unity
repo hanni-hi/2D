@@ -184,10 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &2339561
 SpriteRenderer:
@@ -432,10 +431,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &75510165
 SpriteRenderer:
@@ -549,10 +547,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &90031694
 SpriteRenderer:
@@ -666,10 +663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &102218276
 SpriteRenderer:
@@ -783,10 +779,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &113794544
 SpriteRenderer:
@@ -900,10 +895,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &135241972
 SpriteRenderer:
@@ -1017,10 +1011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &187687920
 SpriteRenderer:
@@ -1134,10 +1127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &190814550
 SpriteRenderer:
@@ -1251,10 +1243,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &209023979
 SpriteRenderer:
@@ -1451,10 +1442,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &242905754
 SpriteRenderer:
@@ -1773,10 +1763,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &289170853
 SpriteRenderer:
@@ -1890,10 +1879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &316488378
 SpriteRenderer:
@@ -2007,10 +1995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &346070335
 SpriteRenderer:
@@ -2124,10 +2111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &353021616
 SpriteRenderer:
@@ -2241,10 +2227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &380467526
 SpriteRenderer:
@@ -2497,10 +2482,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &399076652
 SpriteRenderer:
@@ -2614,10 +2598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &425906708
 SpriteRenderer:
@@ -2782,10 +2765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!1 &460248477
 GameObject:
@@ -2848,10 +2830,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &460248481
 SpriteRenderer:
@@ -2965,10 +2946,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &480397613
 SpriteRenderer:
@@ -3082,10 +3062,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &492860718
 SpriteRenderer:
@@ -3199,10 +3178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &495490674
 SpriteRenderer:
@@ -3316,10 +3294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &495542614
 SpriteRenderer:
@@ -3433,10 +3410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &496601101
 SpriteRenderer:
@@ -3550,10 +3526,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &497463754
 SpriteRenderer:
@@ -3667,10 +3642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &502529588
 SpriteRenderer:
@@ -3784,10 +3758,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &530681166
 SpriteRenderer:
@@ -3901,10 +3874,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &534641312
 SpriteRenderer:
@@ -4018,10 +3990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &540798902
 SpriteRenderer:
@@ -4135,10 +4106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &550956787
 SpriteRenderer:
@@ -4201,6 +4171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 558497462}
   - component: {fileID: 558497463}
+  - component: {fileID: 558497464}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -4232,12 +4203,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &558497464
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558497461}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &597300055
 GameObject:
   m_ObjectHideFlags: 0
@@ -4299,10 +4291,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &597300059
 SpriteRenderer:
@@ -4541,6 +4532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634919238}
   - component: {fileID: 634919239}
+  - component: {fileID: 634919240}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -4572,12 +4564,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &634919240
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634919237}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &670544328
 GameObject:
   m_ObjectHideFlags: 0
@@ -4639,10 +4652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &670544332
 SpriteRenderer:
@@ -4756,10 +4768,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &674280794
 SpriteRenderer:
@@ -4873,10 +4884,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &710025366
 SpriteRenderer:
@@ -4939,6 +4949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 714726753}
   - component: {fileID: 714726754}
+  - component: {fileID: 714726755}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -4970,12 +4981,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &714726755
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 714726752}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &723985185
 GameObject:
   m_ObjectHideFlags: 0
@@ -5037,10 +5069,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &723985189
 SpriteRenderer:
@@ -5265,10 +5296,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &758938922
 SpriteRenderer:
@@ -5382,10 +5412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &772734883
 SpriteRenderer:
@@ -5448,6 +5477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 780728151}
   - component: {fileID: 780728152}
+  - component: {fileID: 780728153}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -5479,12 +5509,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &780728153
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780728150}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &783275613
 GameObject:
   m_ObjectHideFlags: 0
@@ -5546,10 +5597,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &783275617
 SpriteRenderer:
@@ -5663,10 +5713,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &798298674
 SpriteRenderer:
@@ -5780,10 +5829,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &808921075
 SpriteRenderer:
@@ -5897,10 +5945,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &827088375
 SpriteRenderer:
@@ -6014,10 +6061,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &834715238
 SpriteRenderer:
@@ -6214,10 +6260,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &913642687
 SpriteRenderer:
@@ -6280,6 +6325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926586364}
   - component: {fileID: 926586365}
+  - component: {fileID: 926586366}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -6311,12 +6357,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &926586366
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926586363}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &962458310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,10 +6445,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &962458314
 SpriteRenderer:
@@ -6851,10 +6917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &993728912
 SpriteRenderer:
@@ -6968,10 +7033,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &995885359
 SpriteRenderer:
@@ -7085,10 +7149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1006325164
 SpriteRenderer:
@@ -7202,10 +7265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1030142203
 SpriteRenderer:
@@ -7319,10 +7381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1039915395
 SpriteRenderer:
@@ -7436,10 +7497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1042763034
 SpriteRenderer:
@@ -7553,10 +7613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1049059209
 SpriteRenderer:
@@ -7670,10 +7729,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1107639847
 SpriteRenderer:
@@ -7787,10 +7845,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1119686122
 SpriteRenderer:
@@ -7904,10 +7961,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1127058306
 SpriteRenderer:
@@ -8021,10 +8077,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1134731726
 SpriteRenderer:
@@ -8087,6 +8142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1141154610}
   - component: {fileID: 1141154611}
+  - component: {fileID: 1141154612}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -8118,12 +8174,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &1141154612
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141154609}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1182896667
 GameObject:
   m_ObjectHideFlags: 0
@@ -8185,10 +8262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1182896671
 SpriteRenderer:
@@ -8397,10 +8473,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1235003529
 SpriteRenderer:
@@ -8514,10 +8589,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1235674010
 SpriteRenderer:
@@ -8631,10 +8705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1236522033
 SpriteRenderer:
@@ -8748,10 +8821,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1247235032
 SpriteRenderer:
@@ -8865,10 +8937,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1250279052
 SpriteRenderer:
@@ -8982,10 +9053,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1261191257
 SpriteRenderer:
@@ -9099,10 +9169,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1261212231
 SpriteRenderer:
@@ -9316,10 +9385,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1295664647
 SpriteRenderer:
@@ -9433,10 +9501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1307293214
 SpriteRenderer:
@@ -9499,6 +9566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1313777987}
   - component: {fileID: 1313777988}
+  - component: {fileID: 1313777989}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -9530,12 +9598,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &1313777989
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313777986}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1316236443
 GameObject:
   m_ObjectHideFlags: 0
@@ -9597,10 +9686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1316236447
 SpriteRenderer:
@@ -9714,10 +9802,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1389169275
 SpriteRenderer:
@@ -9831,10 +9918,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1393660276
 SpriteRenderer:
@@ -9948,10 +10034,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1436758139
 SpriteRenderer:
@@ -10014,6 +10099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1452051791}
   - component: {fileID: 1452051792}
+  - component: {fileID: 1452051793}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -10045,12 +10131,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &1452051793
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452051790}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1470030406
 GameObject:
   m_ObjectHideFlags: 0
@@ -10251,10 +10358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1474397723
 SpriteRenderer:
@@ -10368,10 +10474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1487279088
 SpriteRenderer:
@@ -10485,10 +10590,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1490585906
 SpriteRenderer:
@@ -10571,10 +10675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d1589be34fc02041b734dc170b40f37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedMultiflier: 3
   NotePrefab: {fileID: 2080092096171924453, guid: 438d3d2b154e9454c83f160890e5961d, type: 3}
-  beatTempo: 0
-  beatPerSecond: 0
 --- !u!4 &1501939003
 Transform:
   m_ObjectHideFlags: 0
@@ -10662,10 +10763,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1508732083
 SpriteRenderer:
@@ -10779,10 +10879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1536932887
 SpriteRenderer:
@@ -10896,10 +10995,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1546028060
 SpriteRenderer:
@@ -11013,10 +11111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1552118608
 SpriteRenderer:
@@ -11130,10 +11227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1555082641
 SpriteRenderer:
@@ -11247,10 +11343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1556335102
 SpriteRenderer:
@@ -11364,10 +11459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1560697799
 SpriteRenderer:
@@ -11481,10 +11575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1610871372
 SpriteRenderer:
@@ -11598,10 +11691,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1638802163
 SpriteRenderer:
@@ -11715,10 +11807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1640235952
 SpriteRenderer:
@@ -11832,10 +11923,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1656362087
 SpriteRenderer:
@@ -11898,6 +11988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676231899}
   - component: {fileID: 1676231900}
+  - component: {fileID: 1676231901}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -11929,12 +12020,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &1676231901
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676231898}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1679516215
 GameObject:
   m_ObjectHideFlags: 0
@@ -11996,10 +12108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1679516219
 SpriteRenderer:
@@ -12164,10 +12275,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!1 &1682290032
 GameObject:
@@ -12230,10 +12340,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1682290036
 SpriteRenderer:
@@ -12347,10 +12456,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1688772018
 SpriteRenderer:
@@ -12464,10 +12572,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1695468458
 SpriteRenderer:
@@ -12530,6 +12637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721303222}
   - component: {fileID: 1721303223}
+  - component: {fileID: 1721303224}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -12561,12 +12669,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &1721303224
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721303221}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1723851402
 GameObject:
   m_ObjectHideFlags: 0
@@ -12628,10 +12757,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1723851406
 SpriteRenderer:
@@ -12745,10 +12873,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1728264184
 SpriteRenderer:
@@ -12950,6 +13077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1750951347}
   - component: {fileID: 1750951348}
+  - component: {fileID: 1750951349}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -12981,12 +13109,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &1750951349
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750951346}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1759405170
 GameObject:
   m_ObjectHideFlags: 0
@@ -12997,6 +13146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1759405171}
   - component: {fileID: 1759405172}
+  - component: {fileID: 1759405173}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -13028,12 +13178,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &1759405173
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759405170}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1761954198
 GameObject:
   m_ObjectHideFlags: 0
@@ -13146,10 +13317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!1 &1780739964
 GameObject:
@@ -13212,10 +13382,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1780739968
 SpriteRenderer:
@@ -13329,10 +13498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1791526209
 SpriteRenderer:
@@ -13585,10 +13753,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1817629580
 SpriteRenderer:
@@ -13702,10 +13869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1875106871
 SpriteRenderer:
@@ -13819,10 +13985,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1875853467
 SpriteRenderer:
@@ -13936,10 +14101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1887542349
 SpriteRenderer:
@@ -14053,10 +14217,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 113
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1895516279
 SpriteRenderer:
@@ -14383,10 +14546,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 117
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1925986242
 SpriteRenderer:
@@ -14500,10 +14662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1937272385
 SpriteRenderer:
@@ -14617,10 +14778,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 114
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1950889068
 SpriteRenderer:
@@ -14734,10 +14894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1982052644
 SpriteRenderer:
@@ -14851,10 +15010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 105
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &1999723719
 SpriteRenderer:
@@ -14968,10 +15126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 121
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &2042819247
 SpriteRenderer:
@@ -15085,10 +15242,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 119
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &2047738432
 SpriteRenderer:
@@ -15202,10 +15358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7df05b4b5341644acf643a6d79b9bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canbePressed: 0
-  obtained: 0
   currentZone: 
-  keytoPress: 101
+  beatTempo: 0
+  beatPerSecond: 0
   objPool: {fileID: 0}
 --- !u!212 &2056143569
 SpriteRenderer:
@@ -15268,6 +15423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2068408598}
   - component: {fileID: 2068408599}
+  - component: {fileID: 2068408600}
   m_Layer: 0
   m_Name: Great
   m_TagString: Great
@@ -15299,12 +15455,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.07
+--- !u!50 &2068408600
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068408597}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2076481168
 GameObject:
   m_ObjectHideFlags: 0
@@ -15402,6 +15579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109126868}
   - component: {fileID: 2109126869}
+  - component: {fileID: 2109126870}
   m_Layer: 0
   m_Name: Perfect
   m_TagString: Perfect
@@ -15433,9 +15611,30 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.02
+--- !u!50 &2109126870
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109126867}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

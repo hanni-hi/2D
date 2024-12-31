@@ -23,6 +23,7 @@ public class PanelController : MonoBehaviour
     {
         theSR = GetComponent<SpriteRenderer>();
         keyString = selectedKey.ToString();
+
     }
 
     void Update()
@@ -30,16 +31,11 @@ public class PanelController : MonoBehaviour
         if (Input.GetKeyDown(keyString))
         {
             theSR.sprite = pressedImage;
-            if (noteobj != null && noteobj.canbePressed)
+            if (noteobj != null)
             {
 
-                noteobj.obtained = true;
-                noteobj.canbePressed = false;
-
-                GameManager.instance.NoteHit();
-
+            GameManager.instance.RegisterHit(noteobj.currentZone);
                 noteobj.objPool.ReturnToPool(noteobj.gameObject);
-
                 noteobj = null;
             }
         }
@@ -48,7 +44,6 @@ public class PanelController : MonoBehaviour
                 theSR.sprite = defaultImage;
 
             }
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -56,7 +51,6 @@ public class PanelController : MonoBehaviour
         if(collision.tag=="Note")
         {
             noteobj = collision.GetComponent<NoteObject>();
-            noteobj.canbePressed = true;
 
         }
     }
@@ -67,7 +61,6 @@ public class PanelController : MonoBehaviour
         {
             if (noteobj !=null && noteobj == collision.GetComponent<NoteObject>())
             {
-                noteobj.canbePressed = false;
                 noteobj = null;
             }
         }

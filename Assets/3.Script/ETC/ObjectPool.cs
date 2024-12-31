@@ -9,8 +9,6 @@ public class ObjectPool : MonoBehaviour
 
     private GameObject SpawnObject;
     private Transform SpawnPoint;
-    private GameObject Note;
-    private GameObject[] Notes = new GameObject[10];
     private int NoteCount = 10;
 
     public GameObject NotePrefab;
@@ -19,17 +17,13 @@ public class ObjectPool : MonoBehaviour
 
     private void Start()
     {
-        SpawnObject = GameObject.Find("NoteManager") ;
+        GameManager.instance.Initializing();
 
-        GameManager.SceneType? type = GameManager.instance.GetKeyByValue();
-        if (type.HasValue)
-        {
-            currentscene = type.Value;      //ÇöÀç ¾ÀÀÇ µñ¼Å³Ê¸® key °ª
-        }
-        else
-        {
-            Debug.Log("¾ÀÅ¸ÀÔ ¸øÃ£À½ ");
-        }
+        SpawnObject = GameObject.FindObjectOfType<ObjectPool>().gameObject ;
+
+        GameManager.SceneType type = GameManager.instance.GetKeyByValue();
+            currentscene = type;      //ÇöÀç ¾ÀÀÇ µñ¼Å³Ê¸® key °ª
+
 
         SpawnPoint = SpawnObject.transform;
 
@@ -88,6 +82,7 @@ public class ObjectPool : MonoBehaviour
 
     public void ReturnToPool(GameObject note)
     {
+        note.transform.position = SpawnPoint.position;
         note.SetActive(false);
         NoteQ.Enqueue(note);
     }
